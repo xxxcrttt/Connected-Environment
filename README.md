@@ -20,9 +20,24 @@ locate a plant around CASA office,  to monitor that plant, sensing the plant env
 3. Adafruit Feather Huzzah ESP8266, an 'all-in-one' ESP9266 WiFi development board with USB and battery charging. 
 4. Raspberry Pi 4 
 
-### Set-Up and connecting to WiFi 
+### Set-up and Connecting to WiFi, Getting the Time 
 Need to install the CP22014 driver and package for esp8266 (the json format) first, then instal the esp8266 under 'Additional Board Manager'.
 Check this by 'blink' example. 
+
+Being able to connect to Wi-Fi is one of the most important feature of ESP8266. First include the wifi library <ESP8266WiFi.h> to the code. 
+Then use 'CE-Hub' and corresponding passport as ssid and password. The web host we are connecting is: iot.io
+
+======== need to add some picture ============
+
+
+
+### Sensing Soil 
+In order to make the sensors of the plant, we need 2 items, a DHT22 temperature / humidity sensor and 2 nails that could be inserted into soil.
+
+The figures below show the circuit for connecting a soil sensor, and the actual item that I've made. 
+
+
+
 
 
 
