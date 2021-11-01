@@ -34,9 +34,9 @@ Then use 'CE-Hub' and corresponding passport as ssid and password. The web host 
 ### Sensing Soil 
 In order to make the sensors of the plant, we need 2 items, a DHT22 temperature / humidity sensor and 2 nails that could be inserted into soil.
 
-(https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/diagram.png)
-(https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/actual1.jpg)
-(https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/actual2.jpg)
+!(https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/diagram.png)
+!(https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/actual1.jpg)
+!(https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/actual2.jpg)
 
 
 
