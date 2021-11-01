@@ -48,11 +48,33 @@ In order to keep it tidy, we solded and simplify the board.
 
 ### MQTT 
 Now we can start sending the data from the sensor to a MQTT server. The server we are using is: mqtt://mqtt.cetools.org::1884.
-Same as previous Wifi connection, we set the ssid and password to 'CE-Hub'.
+Same as previous Wifi connection, we set the ssid and password to `CE-Hub`.
 
-In 'setup()' function we use a builtin LED to check that if the MQTT is actually connected and initialise the MQTT client. Then in the 'sendMQTT()' function, we firstly check that whether there is a connection or not by using if statement. Then doing the loop function, by using value to kep tracking the number of messages coming into the server. Finally using client.publish to sent the message. (In this case is my own topic: 'student/CASA0014/plant/ucfnrc0'
+In `setup()` function we use a builtin LED to check that if the MQTT is actually connected and initialise the MQTT client. Then in the `sendMQTT()` function, we firstly check that whether there is a connection or not by using if statement. Then doing the loop function, by using value to kep tracking the number of messages coming into the server. Finally using client.publish to sent the message. (In this case is my own topic: `student/CASA0014/plant/ucfnrc0`
 
-Then we started to sending soil data to MQTT server. The libraries that we need for the skecth includes: 
+Then we started to sending soil data to MQTT server. Out of the libraries that we have imported, we still have to download the `<DHT.h>`and `<DHT_U.h>` for DHT22 sensor. 
+
+We now create a `readMoisture()` function to applies volatge to the soil sensor, which can measure the resistance. We set the delay to 100 to enable the current to stablilise. `startWifi()` function starts the wifi connection, `startWebserver()` function starts the webserver. 
+
+The `reconnect()` function creates a connection to the MQTT server and defines the topic that we subscribe to, which is `student/CASA0014/plant/ucfnrc0/inTopic`.
+
+Next are the data received by my MQTT topic: 
+
+Temperature: 
+![mqtt-temp] (https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/mqtt-temp.png)
+
+Humidity: 
+![mqtt-hum] (https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/mqtt-hum.png)
+
+Moisture:
+![mqtt-mois] (https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/mqtt-mois.png)
+
+===== need reading pic =============
+
+
+
+
+### Raspberry Pi and IndluxDB 
 
 
 
