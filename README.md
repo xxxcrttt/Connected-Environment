@@ -14,6 +14,16 @@ Use Arduino programming skills to create an object with LED light, could be char
 
 locate a plant around CASA office,  to monitor that plant, sensing the plant environment and sending data to the internet. 
 
+### Preparation: software packages and hardware development board.
+1. Arduino IDE
+2. MQTT explorer
+3. Adafruit Feather Huzzah ESP8266, an 'all-in-one' ESP9266 WiFi development board with USB and battery charging. 
+4. Raspberry Pi 4 
+
+### Set-Up and connecting to WiFi 
+Need to install the CP22014 driver and package for esp8266 (the json format) first, then instal the esp8266 under 'Additional Board Manager'.
+Check this by 'blink' example. 
+
 
 
 
