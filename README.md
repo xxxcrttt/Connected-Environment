@@ -39,7 +39,9 @@ The figures below show the circuit for connecting a soil sensor.
 ![fritzing diagram](https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/diagram.png)
 
 Below are the actual item that I've made. 
+
 ![actual item1](https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/actual1.jpg)
+
 ![actual item2](https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/actual2.jpg)
 
 In order to keep it tidy, we solded and simplify the board. 
@@ -61,13 +63,13 @@ The `reconnect()` function creates a connection to the MQTT server and defines t
 Next are the data received by my MQTT topic: 
 
 Temperature: 
-![mqtt-temp] (https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/mqtt-temp.png)
+![mqtt-temp](https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/mqtt-temp.png)
 
 Humidity: 
-![mqtt-hum] (https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/mqtt-hum.png)
+![mqtt-hum](https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/mqtt-hum.png)
 
 Moisture:
-![mqtt-mois] (https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/mqtt-mois.png)
+![mqtt-mois](https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/mqtt-mois.png)
 
 ===== need reading pic =============
 
