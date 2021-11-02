@@ -70,7 +70,9 @@ The publish messages based on time:
 
 ![query](https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/query.png)
 
+After adding some water, the moisture value becomes higher: 
 
+![water_mois](https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/water-mois.png)
 
 
 ### Raspberry Pi, IndluxDB and Grafana: Data Storage and Visualization 
@@ -88,7 +90,11 @@ After successfully downloading the InfluxDB, we create a database called `telagr
 We are using Grafana to visualize  the data, this is a multi-platform open source analytics and interactive visualization web applicaiton. 
 I successfully open the welcome page with address: [Grafana](http://stud-pi-ucfnrc0.local:3000), and add `telegraf` as my datasource. The datasource is saved and tested. 
 
-However, I got some problems during create Dashboard, which I can't find *mqtt_consumer* under the FROM section, and there's no *tag(topic)* in GROUP BY field. This means that the database is not connected to the web platform. I'm still trying to figure out why. 
+![visual](https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/visualization.png)
+
+After adding water, it is clearly shown that the moisture value is rising. 
+
+![water](https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/water.png)
 
 
 
