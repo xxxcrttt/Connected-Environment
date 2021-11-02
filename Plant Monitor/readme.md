@@ -13,7 +13,7 @@ Need to install the CP22014 driver and package for esp8266 (the json format) fir
 Check this by `blink`example. 
 
 Being able to connect to Wi-Fi is one of the most important features of ESP8266. First include the wifi library `<ESP8266WiFi.h>` to the code. 
-Then use 'CE-Hub' and corresponding passport as ssid and password. The web host we are connecting is: iot.io
+Then use 'CE-Hub' and corresponding password as ssid and password. The web host we are connecting is: iot.io
 
 Connecting to Wi-Fi and getting the time: 
 
