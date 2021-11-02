@@ -27,8 +27,11 @@ Check this by 'blink' example.
 Being able to connect to Wi-Fi is one of the most important features of ESP8266. First include the wifi library <ESP8266WiFi.h> to the code. 
 Then use 'CE-Hub' and corresponding passport as ssid and password. The web host we are connecting is: iot.io
 
-======== need to add some picture ============
+Connecting to Wi-Fi and getting the time: 
 
+![time](https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/time.png)
+
+![wifi](https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/wifi.png)
 
 
 ### Sensing Soil 
@@ -45,7 +48,8 @@ Below is the actual item that I've made.
 ![actual item2](https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/actual2.jpg)
 
 In order to keep it tidy, we solder and simplify the board. 
-===== need pic ==============
+
+![solder](https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/tidy.jpg)
 
 
 ### MQTT 
@@ -74,7 +78,9 @@ Moisture:
 
 ![mqtt-mois](https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/mqtt-mois.png)
 
-===== need reading pic =============
+The publish messages based on time: 
+
+![query](https://github.com/xxxcrttt/Connected-Environment/blob/main/Figures/query.png)
 
 
 
