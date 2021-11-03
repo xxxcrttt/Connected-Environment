@@ -6,7 +6,8 @@ locate a plant around CASA office, to monitor that plant, sensing the plant envi
 1. Arduino IDE
 2. MQTT explorer
 3. Adafruit Feather Huzzah ESP8266, an 'all-in-one' **ESP9266 WiFi** development board with USB and battery charging. 
-4. Raspberry Pi 4 
+4. DHT22 temperature / humidity sensor
+6. Raspberry Pi 4 
 
 ### Set-up and Connecting to Wi-Fi, Getting the Time 
 Need to install the CP22014 driver and package for esp8266 (the json format) first, then install the esp8266 under `Additional Board Manager`.
