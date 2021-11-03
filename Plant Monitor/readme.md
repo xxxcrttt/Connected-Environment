@@ -5,7 +5,7 @@ locate a plant around CASA office, to monitor that plant, sensing the plant envi
 ### Preparation: software packages and hardware development board.
 1. Arduino IDE
 2. MQTT explorer
-3. Adafruit Feather Huzzah ESP8266, an 'all-in-one' **ESP9266 WiFi** development board with USB and battery charging. 
+3. Adafruit Feather Huzzah ESP8266, an 'all-in-one' **ESP8266 WiFi** development board with USB and battery charging. 
 4. DHT22 temperature / humidity sensor
 6. Raspberry Pi 4 
 
